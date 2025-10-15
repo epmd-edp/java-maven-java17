@@ -24,8 +24,6 @@ dist/
 nbdist/
 .nb-gradle/
 /demo.iml
-/mvnw.cmd
-/mvnw
 
 ### Java classes ###
 target/
