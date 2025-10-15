@@ -12,8 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloController {
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello, KubeRocketCI!";
-    }
+  /**
+   * Returns a greeting message.
+   *
+   * @return greeting string
+   */
+  @GetMapping("/hello")
+  public String hello() {
+    return "Hello, KubeRocketCI!";
+  }
 }
