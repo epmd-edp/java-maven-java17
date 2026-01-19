@@ -27,3 +27,6 @@ nbdist/
 
 ### Java classes ###
 target/
+
+### VSC ###
+.vscode/
